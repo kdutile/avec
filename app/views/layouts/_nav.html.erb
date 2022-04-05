@@ -1,0 +1,19 @@
+<nav>
+  <h1><%= link_to "Avec", "/" %></h1>
+  <ul>
+    <% if user_signed_in? %>
+      <li><%= link_to "Edit profile", edit_user_registration_path, class: "button" %></li>
+      <li><%= button_to "Logout", destroy_user_session_path, class: "button", method: :delete %></li>
+    <% else %>
+      <li><%= link_to "Sign up", new_user_registration_path, class: "button" %></li>
+      <li><%= link_to "Login", new_user_session_path, class: "button" %></li>
+    <% end %>
+  </ul>
+</nav>
+<% if user_signed_in? %>
+  <p>Logged in as <strong><%= current_user.email %></strong>.</p>
+<% end %>
+<%# allows Devise to show alert and notice flash notifications %>
+<% if alert %>
+  <p style="color: red"><%= alert %></p>
+<% end %>
