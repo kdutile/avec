@@ -1,24 +1,24 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Avec
+### An event planning app
 
-Things you may want to cover:
+#### Live link
+https://avec.herokuapp.com/
 
-* Ruby version
+#### Tech Learned
+Ruby on Rails
+https://rubyonrails.org/
 
-* System dependencies
+##### Tech Info
+ * Ruby 2.7.5 (rbenv for versioning)
+ * Rails 7.0.2
+ * PostgreSQL
+ * Devise (user authentication)
+ * Skeleton CSS Framework
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+#### Roadmap
+ * User authorization/roles
+ * Registration gating
+ * Friend relations (invite/confirmation)
+ * Email (Amazon SES)
