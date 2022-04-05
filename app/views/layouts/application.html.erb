@@ -12,9 +12,16 @@
     <%= javascript_importmap_tags %>
   </head>
 
-  <body>
+  <body class="u-full-width">
     <%= render "layouts/nav" %>
     <div class="main">
+      <% if user_signed_in? %>
+        <p class="logged_in_as">Logged in as <strong><%= current_user.email %></strong>.</p>
+      <% end %>
+      <%# allows Devise to show alert and notice flash notifications %>
+      <% if alert %>
+        <p style="color: red"><%= alert %></p>
+      <% end %>
       <%= yield %>
     </div>
   </body>

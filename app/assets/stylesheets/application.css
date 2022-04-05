@@ -27,27 +27,36 @@
    top: 0;
    padding: 10px;
    display: flex;
-   justify-content: space-around;
-   align-items: baseline;
+   justify-content: space-between;
+   align-items: center;
    background-color: white;
    z-index: 100;
+   border-bottom: 1px solid #eee;
  }
  nav h1 {
-   font-size: 40px;
-   margin: 0 6% 0 2%;
-   white-space: nowrap;
+   font-size: 50px;
+   margin: 0 6% 1rem 2%;
+   /* white-space: nowrap; */
  }
  nav ul {
-   flex: 5;
    display: flex;
    justify-content: flex-start;
-   align-items: baseline;
+   align-items: center;
    gap: 20px;
    margin: 0 0 0 14px;
    font-size: 18px;
  }
+ nav li {
+   margin-bottom: 0;
+ }
+ nav form {
+   margin-bottom: 0;
+ }
+ p.logged_in_as {
+   margin-bottom: 0;
+ }
  .main {
-  padding-top: 83px;
+  padding-top: 91px;
   display: flex;
   flex-direction: column;
   align-items: center;

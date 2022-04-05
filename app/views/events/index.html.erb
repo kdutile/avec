@@ -3,16 +3,26 @@
 <% if user_signed_in? %>
   <h1>Events</h1>
 
+  <%= link_to "New event", new_event_path, class: "button button-primary"  %>
+
   <div id="events">
     <% @events.each do |event| %>
-      <%= render event %>
-      <p>
-        <%= link_to "Show this event", event %>
-      </p>
+      <table class="u-full-width">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Description</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <%= render event %>
+        </tbody>
+      </table>
     <% end %>
+
   </div>
 
-  <%= link_to "New event", new_event_path %>
 <% else %>
   <h1>Welcome!</h1>
   <p>Please sign up or log in to continue.</p>
