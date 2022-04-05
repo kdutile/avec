@@ -1,0 +1,32 @@
+- Tues 3/22:
+  - Capstone Launch
+  - Start market research
+- Wed 3/23:
+  - Market research
+  - Idea brainstorming
+- Thur 3/24:
+  - Porject pitch
+  - Schedule
+- Fri 3/25:
+  - Ruby exercises (https://www.youtube.com/playlist?list=PLdnONIhPScSQ4BDEoYv1gImEvLFnpgVXo)
+    - Note: Do not recommend, possibly dated
+- Sat 3/26 & Sun 3/27:
+  - Rails exercises (https://www.youtube.com/playlist?list=PLdnONIhPScSQ4BDEoYv1gImEvLFnpgVXo)
+    - Note: Do not recommend, possibly dated
+- Mon 3/28:
+  - Ruby exercises (internet)
+- Tues 3/29:
+  - Rails exercise (https://guides.rubyonrails.org/getting_started.html)
+    - Note: Great documentation
+- Wed 3/30:
+  - Test build basic Rails API
+- Thur 3/31:
+  - Ask for, and granted, permision to do a Rails-only app. No separate front end app.
+- Fri 4/01:
+  - Apply Devise to previous Rails exercise
+- Sat 4/02:
+  - Build app day 1
+- Sun 4/03:
+  - Build app day 2
+- Mon 4/04:
+  - Build app day 3
