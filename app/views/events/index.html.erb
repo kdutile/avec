@@ -6,21 +6,20 @@
   <%= link_to "New event", new_event_path, class: "button button-primary"  %>
 
   <div id="events">
-    <% @events.each do |event| %>
-      <table class="u-full-width">
-        <thead>
-          <tr>
-            <th>Title</th>
-            <th>Description</th>
-            <th></th>
-          </tr>
-        </thead>
-        <tbody>
+    <table class="u-full-width">
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Description</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <% @events.each do |event| %>
           <%= render event %>
-        </tbody>
-      </table>
-    <% end %>
-
+        <% end %>
+      </tbody>
+    </table>
   </div>
 
 <% else %>
